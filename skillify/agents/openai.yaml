@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skillify"
+  short_description: "Design deterministic benchmarks for AI coding workflows"
+  default_prompt: "Use $skillify to design a deterministic benchmark suite for this AI coding workflow."
