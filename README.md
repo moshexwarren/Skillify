@@ -24,6 +24,19 @@ The included references cover frontend benchmarks, backend benchmarks, and
 deterministic scoring. Skillify is an authoring skill and methodology; this
 repository does not bundle a benchmark runner or BenchForge CLI.
 
+## Next-generation experiment engine specification
+
+The repository now also preserves the v0 design for a local baseline-versus-
+treatment experiment engine. The design was drafted under the working name
+**BenchForge**; the intended product name is **igotskilz**. Its specification
+covers private benchmark suites, hidden acceptance tests, interleaved repeated
+runs, objective metrics, confidence intervals, and evidence-based verdicts.
+
+This is design work, not a claim of a finished product. The CLI described in
+[`docs/benchforge-v0-spec/SPEC.md`](docs/benchforge-v0-spec/SPEC.md) is not yet
+implemented in this repository. The original `benchforge` command examples are
+kept unchanged so the archived specification remains internally consistent.
+
 ## Install for Codex
 
 Clone the repository, then copy the installable `skillify/` directory into your
